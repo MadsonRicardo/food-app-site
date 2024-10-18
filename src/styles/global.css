@@ -1,10 +1,13 @@
 :root {
     --font-primary: 'Montserrat', sans-serif;
     --font-secondary: 'Inter', sans-serif;
-
     --color-ligthyellow: #EADECE;
     --color-white: #FFFFFF;
     --color-red: #E3512A;
     --color-black: #000000;
     --color-green: #2A645C;
+}
+
+body {
+    background-color: var(--color-ligthyellow);
 }

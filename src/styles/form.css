@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form input[type="text"],
+.form input[type='number'],
+.form input[type='password'],
+.form select {
+
+}

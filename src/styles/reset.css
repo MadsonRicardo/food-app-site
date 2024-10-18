@@ -19,3 +19,7 @@ input,
 select {
     background: transparent;
 }
+
+a {
+    text-decoration: none;
+}

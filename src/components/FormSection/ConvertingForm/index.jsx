@@ -3,7 +3,7 @@ export const ConvertingForm = () => {
         <form>
             <input type="text" placeholder="Nome" />
             <input type="text" placeholder="E-mail" />
-            <button type="submit">Saiba mais</button>
+            <button className="btn green" type="submit">Saiba mais</button>
         </form>
     )
 }
