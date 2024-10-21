@@ -2,8 +2,11 @@ import Logo from '../../assets/Logo.svg';
 
 export const Header = () => {
     return (
-        <header>
-            <img src={Logo} alt="Logo Food" />
-        </header>
+
+        <div className="container">
+            <header>
+                <img src={Logo} alt="Logo Food" />
+            </header>
+        </div>
     )
 }
