@@ -1,8 +1,10 @@
+import styles from './style.module.css'
+
 export const Footer = () => {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <div className="container">
-                <p className="paragrapy white">Todos os direitos reservados - Kenzie Academy Brasil - 2024 </p>
+                <p className="paragraphy white center">Todos os direitos reservados - Madson de Miranda - 2024 </p>
             </div>
         </footer>
     )

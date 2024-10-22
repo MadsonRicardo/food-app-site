@@ -1,17 +1,27 @@
 import ImgFoods from '../../assets/ImgFoods.png';
+import styles from './style.module.css';
 
 export const BannerSection = () => {
-    return (
-        <section>
-            <div className="container">
-                <div>
-                    <h1 className='title lg black'>Descubra o melhor <span className='red'>aplicativo de comida</span></h1>
-                    <p className='paragraphy black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus tempor ullamcorper. Vivamus porta lorem eu quam ultricies, non imperdiet erat elementum.</p>
-                    <a className='btn red' href="#">Saiba mais</a>
-                </div>
-                <img src={ImgFoods} alt="Três imagens de comidas" />
+   return (
+      <section className={`${styles.bannerSection} section-padding`}>
+         <div className="container">
+            <div className={styles.flexBox}>
+               <div>
+                  <h1 className="title black lg">
+                     Descubra o melhor <span className="red">aplicativo de comida</span>
+                  </h1>
+                  <p className="paragraphy black">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                     maximus tempor ullamcorper. Vivamus porta lorem eu quam ultricies,
+                     non imperdiet erat elementum.
+                  </p>
+                  <a href="#" className="btn red">
+                     Saiba mais
+                  </a>
+               </div>
+               <img src={ImgFoods} alt="Comidas gostosas" />
             </div>
-
-        </section>
-    )
-}
+         </div>
+      </section>
+   );
+};
